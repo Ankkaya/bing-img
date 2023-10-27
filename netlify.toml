@@ -1,2 +1,4 @@
-[build]
-command = "pnpm run build && cp _redirects dist/_redirects"
+[[redirects]]
+  from = "/api/*"
+  to = "https://cn.bing.com"
+  status = 200
