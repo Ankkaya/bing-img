@@ -11,8 +11,10 @@ const wallPaperSrc = computed(() => {
   return `https://cn.bing.com${data.data.value.images[0].url}`
 })
 
-const data = await useFetch('/api/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=zh-CN', {
+const data = useFetch('/api/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=zh-CN', {
+  method: 'POST',
   lazy: true,
   server: false,
+  metho,
 })
 </script>
