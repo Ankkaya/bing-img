@@ -1,0 +1,3 @@
+[build]
+command = "pnpm run build && cp _redirects dist/_redirects"
+publish = "dist"
