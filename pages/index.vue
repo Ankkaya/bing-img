@@ -15,6 +15,5 @@ const data = useFetch('/api/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=zh-CN', 
   method: 'POST',
   lazy: true,
   server: false,
-  metho,
 })
 </script>
